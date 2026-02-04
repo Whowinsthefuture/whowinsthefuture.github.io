@@ -28,7 +28,13 @@ defaults:
       share: false
 custom_css:
   - assets/css/custom.css
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
+
+minimal_mistakes_skin: dark
+
+breadcrumbs: false
+search: false
+
 
 
       
