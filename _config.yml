@@ -26,3 +26,7 @@ defaults:
       read_time: false
       comments: false
       share: false
+custom_css:
+  - assets/css/custom.css
+
+      
