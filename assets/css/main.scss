@@ -51,3 +51,17 @@
 .manifesto li {
   margin-bottom: 0.75rem;
 }
+/* ===== Typography Lock ===== */
+
+body {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+
+p, li {
+  color: #d6e2ea;
+}
