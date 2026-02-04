@@ -10,4 +10,6 @@ minimal_mistakes_skin: dark
 
 author:
   name: Who Wins the Future
+exclude:
+  - README.md
 
