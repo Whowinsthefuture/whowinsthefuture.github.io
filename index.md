@@ -1,7 +1,11 @@
 ---
-layout: home
-title: "Who Wins the Future"
-author_profile: false
+layout: single
+classes: wide
+header:
+  overlay_image: /assets/images/neon-city-infrastructure.jpg
+  overlay_filter: 0.78
+  show_overlay_excerpt: false
+footer: false
 ---
 
 ## The future is not neutral.
