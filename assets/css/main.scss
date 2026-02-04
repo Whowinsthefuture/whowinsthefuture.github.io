@@ -65,3 +65,22 @@ h1, h2, h3 {
 p, li {
   color: #d6e2ea;
 }
+/* ---- FORCE READABLE BODY TYPOGRAPHY ---- */
+
+.page__content,
+.page__content p,
+.page__content li {
+  color: #0f172a; /* deep slate */
+}
+
+.page__content {
+  background: #ffffff;
+  padding-top: 4rem;
+}
+
+/* Headings */
+.page__content h1,
+.page__content h2,
+.page__content h3 {
+  color: #020617;
+}
