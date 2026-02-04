@@ -52,6 +52,19 @@ blockquote {
   color: #B0BEC5;
   font-style: normal;
 }
+/* Darken and stabilize hero background */
+.page__hero--overlay::before {
+  background: linear-gradient(
+    rgba(11, 13, 16, 0.85),
+    rgba(11, 13, 16, 0.85)
+  );
+}
+
+/* Make hero text authoritative */
+.page__hero--overlay h1,
+.page__hero--overlay p {
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.8);
+}
 
 /* Lists tighter, more report-like */
 ul li {
