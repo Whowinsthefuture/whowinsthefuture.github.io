@@ -34,6 +34,17 @@ minimal_mistakes_skin: dark
 
 breadcrumbs: false
 search: false
+header:
+  overlay_image: false
+  show_overlay_excerpt: false
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      header: false
+      toc: false
 
 
 
