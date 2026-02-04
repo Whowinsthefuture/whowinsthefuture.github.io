@@ -16,3 +16,11 @@ exclude:
   - README.md
 subtitle: Power, progress, and who benefits from change
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
