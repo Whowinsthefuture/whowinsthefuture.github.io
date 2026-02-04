@@ -28,5 +28,7 @@ defaults:
       share: false
 custom_css:
   - assets/css/custom.css
+theme: minimal-mistakes-jekyll
+
 
       
