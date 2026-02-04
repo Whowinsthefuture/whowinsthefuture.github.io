@@ -1,0 +1,53 @@
+---
+@import "minimal-mistakes";
+
+/* ===== Neon Civic Manifesto ===== */
+
+.hero-manifesto {
+  height: 100vh;
+  background-image:
+    linear-gradient(
+      rgba(5, 10, 20, 0.75),
+      rgba(5, 10, 20, 0.75)
+    ),
+    url("/assets/images/neon-city-infrastructure.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-overlay h1 {
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: #e8faff;
+  margin-bottom: 1rem;
+}
+
+.hero-overlay p {
+  font-size: 1.3rem;
+  color: #7df9ff;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.manifesto {
+  max-width: 760px;
+  margin: 6rem auto;
+  padding: 0 1.5rem;
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+.manifesto ul {
+  margin-top: 2rem;
+}
+
+.manifesto li {
+  margin-bottom: 0.75rem;
+}
