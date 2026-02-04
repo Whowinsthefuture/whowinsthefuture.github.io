@@ -5,6 +5,8 @@ url: https://whowinsthefuture.github.io
 remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache
+
 
 minimal_mistakes_skin: dark
 
