@@ -25,6 +25,10 @@
   align-items: center;
   gap: 0.75rem;
 }
+.page__hero,
+.page__hero--overlay {
+  display: none !important;
+}
 
 .wwtf-logo {
   height: 36px;
