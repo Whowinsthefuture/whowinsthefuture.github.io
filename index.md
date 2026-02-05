@@ -1,4 +1,9 @@
 ---
+layout: default
+title: Who Wins the Future
+---
+
+---
 <h1>Progress decides who wins.</h1>
 <p>Technology. Power. Consequences.</p>
 ---
