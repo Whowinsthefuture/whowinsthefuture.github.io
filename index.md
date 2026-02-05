@@ -1,11 +1,9 @@
 ---
-layout: single
+layout: default
 title: ""
 ---
-
-{% include custom-header.html %}
-
-# The future is not neutral.
-
-Power. Progress. Consequences.
+<section class="hero-manifesto">
+  <h1>The future is not neutral.</h1>
+  <p class="tagline">Power. Progress. Consequences.</p>
+</section>
 
