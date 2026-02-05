@@ -1,51 +1,17 @@
 title: Who Wins the Future
 description: Power, progress, and who benefits from change
-url: https://whowinsthefuture.github.io
 
 remote_theme: mmistakes/minimal-mistakes
 plugins:
-  - jekyll-remote-theme
   - jekyll-include-cache
-
-
-minimal_mistakes_skin: contrast
-accent_color: "#00E5FF"
-
-
-author:
-  name: Who Wins the Future
-exclude:
-  - README.md
-subtitle: Power, progress, and who benefits from change
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      author_profile: false
-      read_time: false
-      comments: false
-      share: false
-custom_css:
-  - assets/css/custom.css
-remote_theme: mmistakes/minimal-mistakes
 
 minimal_mistakes_skin: dark
 
-breadcrumbs: false
-search: false
-header:
-  overlay_image: false
-  show_overlay_excerpt: false
-
 defaults:
   - scope:
       path: ""
-      type: pages
     values:
-      header: false
-      toc: false
+      layout: single
+      classes: wide
 
-
-
-      
+markdown: kramdown
