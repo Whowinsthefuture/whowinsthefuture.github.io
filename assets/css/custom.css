@@ -1,0 +1,4 @@
+.site-logo img {
+  max-height: 72px;   /* try 64–80 */
+  width: auto;
+}
