@@ -84,3 +84,10 @@ p, li {
 .page__content h3 {
   color: #020617;
 }
+.page__content {
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #f8fafc 100%
+  );
+}
