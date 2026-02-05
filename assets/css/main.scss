@@ -115,6 +115,26 @@ p, li {
 .page__hero--overlay {
   margin-bottom: 0 !important;
 }
+/* FORCE CONTENT VISIBILITY */
+#main {
+  position: relative;
+  z-index: 20;
+  background: #ffffff;
+}
+
+/* Kill all hero overlays */
+.page__hero--overlay,
+.page__hero--overlay::before,
+.page__hero--overlay::after {
+  pointer-events: none;
+}
+
+/* Ensure text is visible */
+.page__content,
+.page__content * {
+  opacity: 1 !important;
+  color: #0f172a;
+}
 
 /* Fix opacity inheritance */
 .page__content * {
