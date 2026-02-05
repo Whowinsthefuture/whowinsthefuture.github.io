@@ -75,3 +75,24 @@
   height: 42px;
   width: auto;
 }
+.hero-manifesto {
+  min-height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10vw;
+  background: #ffffff;
+}
+
+.hero-manifesto h1 {
+  font-size: clamp(2.8rem, 6vw, 4.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.hero-manifesto .tagline {
+  font-size: 1.2rem;
+  color: #555;
+  letter-spacing: 0.04em;
+}
