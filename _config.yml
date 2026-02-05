@@ -24,3 +24,14 @@ defaults:
     values:
       header:
         show: false
+remote_theme: "mmistakes/minimal-mistakes"
+
+header:
+  show: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      header:
+        show: false
