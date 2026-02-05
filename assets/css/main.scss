@@ -91,3 +91,32 @@ p, li {
     #f8fafc 100%
   );
 }
+/* ===============================
+   FIX CONTENT BEING COVERED
+   =============================== */
+
+/* Remove white overlay / mask */
+.page__hero--overlay::after,
+.page__hero--overlay::before,
+.intro::after,
+.intro::before {
+  display: none !important;
+}
+
+/* Force content to appear above hero layers */
+.page__content {
+  position: relative;
+  z-index: 10;
+  background: #ffffff;
+  color: #0f172a;
+}
+
+/* Ensure hero does NOT bleed over content */
+.page__hero--overlay {
+  margin-bottom: 0 !important;
+}
+
+/* Fix opacity inheritance */
+.page__content * {
+  opacity: 1 !important;
+}
