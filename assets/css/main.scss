@@ -140,3 +140,13 @@ p, li {
 .page__content * {
   opacity: 1 !important;
 }
+/* 🔥 REMOVE WHITE CONTENT PANEL */
+.page__content {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Full-bleed manifesto look */
+.page {
+  background: transparent !important;
+}
