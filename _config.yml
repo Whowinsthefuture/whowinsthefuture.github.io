@@ -15,3 +15,12 @@ defaults:
       classes: wide
 
 markdown: kramdown
+header:
+  overlay: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      header:
+        show: false
